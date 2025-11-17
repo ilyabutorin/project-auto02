@@ -86,7 +86,7 @@ select {
     font-size: 16px;
     color: #303030;
     list-style-image: url(./assets/images/ul-icon.svg);
-    padding-left: 20px;
+    padding-left: 0px 20px;
 }
 
 .books-list {
@@ -94,7 +94,7 @@ select {
     font-weight: 400;
     font-size: 16px;
     color: #303030;
-    padding-left: 20px;
+    padding-left: 0px 20px;
 }
 
 .label {
@@ -138,12 +138,13 @@ select {
 table {
     /* Стили для таблицы */
     border-collapse: collapse;
+    font-size: 14px;
 }
 
 th, td {
     /* Стили для ячеек таблицы */
     border: 1px solid #95a1bb;
-    padding: 10px 15px;
+    padding: 12px 15px;
 }
 
 footer {
